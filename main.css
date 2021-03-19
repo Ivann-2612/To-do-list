@@ -51,7 +51,7 @@ i {
   margin-bottom: 15px;
   padding-left: 15px;
   outline: none;
-  border: none;
+  border: 1px solid lime;
   color: black;
   caret-color: black;
   letter-spacing: 2px;
