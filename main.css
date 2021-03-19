@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8ff;
+  color: black;
+}
+#main-div {
+  background: #f8f8ff;
+  box-shadow:  5px 5px 10px #bababf,
+             -5px -5px 10px #ffffff;
+  opacity: 0.85;
+  margin: 0 auto;
+  border-radius: 10px;
+  min-height: 80vh;
+  padding: 10px 30px;
+  width: 90%;
+  margin-top: 20px;
+  color: black;
+ 
+}
+#lista,
+#form {
+  margin: 0 auto;
+  opacity: 1;
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+i {
+  margin-left: 15px;
+}
+#lista {
+  width: 95%;
+}
+
+#form {
+  width: 95%;
+  margin-bottom: 35px;
+}
+#input-value {
+  width: 100%;
+  background: #f8f8ff;
+  box-shadow:  5px 5px 5px #bababf,
+             -5px -5px 5px #ffffff;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  color: black;
+  caret-color: black;
+  letter-spacing: 2px;
+}
+#submit {
+
+  background: #f8f8ff;
+  box-shadow:  5px 5px 5px #bababf,
+             -5px -5px 5px #ffffff;
+  color: black;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  height: 42px;
+}
+
+#submit:focus {
+  outline: none;
+  
+  box-shadow:  5px 5px 5px #bababf,
+  -5px -5px 5px #ffffff;
+  transform: translateY(4px);
+}
+.newDiv {
+  border: 1px solid black;
+  padding: 3px;
+  color: white;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  background: #f8f8ff;
+  box-shadow:  5px 5px 5px #bababf,
+             -5px -5px 5px #ffffff;
+  border: none;
+  border-left: 5px solid #00bbf9;
+}
+.newDiv p {
+  display: inline-block;
+  color: black;
+  min-height: 2vh;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.newDiv button {
+  float: right;
+  background-color: #fb5607;
+  color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 20%;
+  padding: 6px 10px;
+  border: none;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 1px 5px;
+}
+
+.newDiv button:hover {
+  background-color: red;
+  color: white;
+  box-shadow: none;
+}
